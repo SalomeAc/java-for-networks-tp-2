@@ -1,0 +1,245 @@
+2026.11.18 14:13:28 INFO  Started: Metals version 1.6.9 in folders 'C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2' for client Visual Studio Code 1.145.2.
+2026.11.18 14:13:29 INFO  time: initialize in 0.14s
+2026.11.18 14:13:28 INFO  Memory monitor started
+2026.11.18 14:13:34 WARN  Using H2 2.5.250 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.11.18 14:13:36 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\UDPserver.java. Using fallback presentation compiler.
+2026.11.18 14:13:40 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\UDPserver.java. Using fallback presentation compiler.
+2026.11.18 14:13:42 WARN  no build tool detected in workspace 'C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2026.11.18 14:13:42 WARN  Build server is not auto-connectable.
+2026.11.18 14:13:42 WARN  no build target for: C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\UDPserver.java
+2026.11.18 14:13:44 WARN  Running javac-semanticdb failed for file:///C:/Users/salom/Desktop/Univalle/9_semestre/Java%20for%20networks/java-for-networks-tp-2/UDPserver.java. Output:
+
+2026.11.18 14:13:44 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\UDPserver.java. Using fallback presentation compiler.
+nov. 18, 2026 2:13:45 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 9
+2026.11.18 14:13:45 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\UDPserver.java. Using fallback presentation compiler.
+2026.11.18 14:13:50 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\UDPserver.java. Using fallback presentation compiler.
+2026.11.18 14:13:53 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\UDPserver.java. Using fallback presentation compiler.
+2026.11.18 14:13:56 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\UDPserver.java. Using fallback presentation compiler.
+2026.11.18 14:13:58 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\UDPserver.java. Using fallback presentation compiler.
+2026.11.18 14:13:58 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\UDPserver.java. Using fallback presentation compiler.
+2026.11.18 14:14:04 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\UDPserver.java. Using fallback presentation compiler.
+2026.11.18 14:14:06 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\UDPserver.java. Using fallback presentation compiler.
+2026.11.18 14:14:09 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\UDPserver.java. Using fallback presentation compiler.
+2026.11.18 14:14:16 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\UDPserver.java. Using fallback presentation compiler.
+2026.11.18 14:14:18 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\UDPserver.java. Using fallback presentation compiler.
+2026.11.18 14:14:20 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\UDPserver.java. Using fallback presentation compiler.
+2026.11.18 14:14:21 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\UDPserver.java. Using fallback presentation compiler.
+2026.11.18 14:14:23 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\UDPserver.java. Using fallback presentation compiler.
+2026.11.18 14:14:23 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\UDPserver.java. Using fallback presentation compiler.
+2026.11.18 14:14:23 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\UDPserver.java. Using fallback presentation compiler.
+2026.11.18 14:14:26 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\UDPserver.java. Using fallback presentation compiler.
+2026.11.18 14:14:26 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\UDPserver.java. Using fallback presentation compiler.
+2026.11.18 14:14:29 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\UDPserver.java. Using fallback presentation compiler.
+2026.11.18 14:14:42 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\UDPserver.java. Using fallback presentation compiler.
+2026.11.18 14:14:51 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\UDPserver.java. Using fallback presentation compiler.
+2026.11.18 14:14:53 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\UDPserver.java. Using fallback presentation compiler.
+2026.11.18 14:14:54 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\UDPserver.java. Using fallback presentation compiler.
+2026.11.18 14:14:55 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\UDPserver.java. Using fallback presentation compiler.
+2026.11.18 14:14:55 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\UDPserver.java. Using fallback presentation compiler.
+2026.11.18 14:14:57 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\UDPserver.java. Using fallback presentation compiler.
+2026.11.18 14:15:07 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\UDPserver.java. Using fallback presentation compiler.
+2026.11.18 14:15:07 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\UDPserver.java. Using fallback presentation compiler.
+2026.11.18 14:15:07 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\UDPserver.java. Using fallback presentation compiler.
+2026.11.18 14:15:07 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\UDPserver.java. Using fallback presentation compiler.
+2026.11.18 14:15:08 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\UDPserver.java. Using fallback presentation compiler.
+2026.11.18 14:15:09 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\UDPserver.java. Using fallback presentation compiler.
+2026.11.18 14:15:09 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\UDPserver.java. Using fallback presentation compiler.
+2026.11.18 14:15:09 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\UDPserver.java. Using fallback presentation compiler.
+2026.11.18 14:15:09 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\UDPserver.java. Using fallback presentation compiler.
+2026.11.18 14:15:09 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\UDPserver.java. Using fallback presentation compiler.
+2026.11.18 14:15:11 WARN  no build target for: C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\UDPserver.java
+2026.11.18 14:15:11 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\UDPserver.java. Using fallback presentation compiler.
+2026.11.18 14:15:11 WARN  Running javac-semanticdb failed for file:///C:/Users/salom/Desktop/Univalle/9_semestre/Java%20for%20networks/java-for-networks-tp-2/UDPserver.java. Output:
+
+2026.11.18 14:15:11 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\UDPserver.java. Using fallback presentation compiler.
+2026.11.18 14:15:11 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\UDPserver.java. Using fallback presentation compiler.
+2026.11.18 14:15:12 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\UDPserver.java. Using fallback presentation compiler.
+2026.11.18 14:15:14 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\UDPserver.java. Using fallback presentation compiler.
+2026.11.18 14:15:14 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\UDPserver.java. Using fallback presentation compiler.
+2026.11.18 14:15:16 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\UDPserver.java. Using fallback presentation compiler.
+2026.11.18 14:15:16 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\UDPserver.java. Using fallback presentation compiler.
+2026.11.18 14:15:16 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\UDPserver.java. Using fallback presentation compiler.
+2026.11.18 14:15:16 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\UDPserver.java. Using fallback presentation compiler.
+2026.11.18 14:15:17 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\UDPserver.java. Using fallback presentation compiler.
+2026.11.18 14:15:17 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\UDPserver.java. Using fallback presentation compiler.
+2026.11.18 14:15:17 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\UDPserver.java. Using fallback presentation compiler.
+2026.11.18 14:15:18 WARN  no build target for: C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\UDPserver.java
+2026.11.18 14:15:18 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\UDPserver.java. Using fallback presentation compiler.
+2026.11.18 14:15:18 WARN  Running javac-semanticdb failed for file:///C:/Users/salom/Desktop/Univalle/9_semestre/Java%20for%20networks/java-for-networks-tp-2/UDPserver.java. Output:
+
+2026.11.18 14:15:19 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\UDPserver.java. Using fallback presentation compiler.
+2026.11.18 14:15:24 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\UDPserver.java. Using fallback presentation compiler.
+nov. 18, 2026 2:15:24 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 109
+2026.11.18 14:15:24 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\UDPserver.java. Using fallback presentation compiler.
+2026.11.18 14:15:25 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\UDPserver.java. Using fallback presentation compiler.
+2026.11.18 14:15:25 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\UDPserver.java. Using fallback presentation compiler.
+2026.11.18 14:15:33 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\UDPServer.java. Using fallback presentation compiler.
+2026.11.18 14:15:46 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\UDPServer.java. Using fallback presentation compiler.
+2026.11.18 14:15:47 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\UDPServer.java. Using fallback presentation compiler.
+2026.11.18 14:15:47 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\UDPServer.java. Using fallback presentation compiler.
+2026.11.18 14:15:48 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\UDPServer.java. Using fallback presentation compiler.
+2026.11.18 14:15:48 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\UDPServer.java. Using fallback presentation compiler.
+2026.11.18 14:15:59 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\UDPServer.java. Using fallback presentation compiler.
+nov. 18, 2026 2:17:34 P. M. org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFORMACIÓN: Unsupported notification method: $/setTrace
+nov. 18, 2026 2:17:37 P. M. org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFORMACIÓN: Unsupported notification method: $/setTrace
+2026.11.18 14:21:43 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\UDPServer.java. Using fallback presentation compiler.
+2026.11.18 14:21:43 WARN  no build target for: C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\UDPServer.java
+2026.11.18 14:21:43 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\UDPServer.java. Using fallback presentation compiler.
+nov. 18, 2026 2:21:44 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+ADVERTENCIA: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "metals/didFocusTextDocument",
+  "params": [
+    "class:/c%3A/Users/salom/Desktop/Univalle/9_semestre/Java%20for%20networks/java-for-networks-tp-2/UDPServer.class"
+  ]
+}
+java.nio.file.FileSystemNotFoundException: Provider "class" not installed
+	at java.base/java.nio.file.Path.of(Path.java:212)
+	at java.base/java.nio.file.Paths.get(Paths.java:98)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionURIMtags.toAbsolutePath(MtagsEnrichments.scala:149)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:221)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:787)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:784)
+	at scala.meta.internal.metals.WorkspaceLspService.didFocus(WorkspaceLspService.scala:810)
+	at scala.meta.metals.lsp.DelegatingScalaService.didFocus(DelegatingScalaService.scala:42)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:160)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:225)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:192)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:189)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:97)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+nov. 18, 2026 2:21:55 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+ADVERTENCIA: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "metals/didFocusTextDocument",
+  "params": [
+    "class:/c%3A/Users/salom/Desktop/Univalle/9_semestre/Java%20for%20networks/java-for-networks-tp-2/UDPServer.class"
+  ]
+}
+java.nio.file.FileSystemNotFoundException: Provider "class" not installed
+	at java.base/java.nio.file.Path.of(Path.java:212)
+	at java.base/java.nio.file.Paths.get(Paths.java:98)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionURIMtags.toAbsolutePath(MtagsEnrichments.scala:149)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:221)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:787)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:784)
+	at scala.meta.internal.metals.WorkspaceLspService.didFocus(WorkspaceLspService.scala:810)
+	at scala.meta.metals.lsp.DelegatingScalaService.didFocus(DelegatingScalaService.scala:42)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:160)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:225)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:192)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:189)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:97)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+2026.11.18 14:22:41 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\UDPServer.java. Using fallback presentation compiler.
+2026.11.18 14:22:41 WARN  no build target for: C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\UDPServer.java
+2026.11.18 14:22:41 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\UDPServer.java. Using fallback presentation compiler.
+2026.11.18 14:22:41 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\UDPServer.java. Using fallback presentation compiler.
+2026.11.18 14:22:45 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\UDPServer.java. Using fallback presentation compiler.
+2026.11.18 14:23:58 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\UDPServer.java. Using fallback presentation compiler.
+2026.11.18 14:28:38 WARN  no build target for: C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\UDPClient.java
+2026.11.18 14:28:38 WARN  Running javac-semanticdb failed for file:///C:/Users/salom/Desktop/Univalle/9_semestre/Java%20for%20networks/java-for-networks-tp-2/UDPClient.java. Output:
+
+2026.11.18 14:28:38 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\UDPClient.java. Using fallback presentation compiler.
+2026.11.18 14:28:38 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\UDPClient.java. Using fallback presentation compiler.
+2026.11.18 14:28:38 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\UDPClient.java. Using fallback presentation compiler.
+2026.11.18 14:28:38 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\UDPClient.java. Using fallback presentation compiler.
+2026.11.18 14:28:38 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\UDPClient.java. Using fallback presentation compiler.
+2026.11.18 14:28:39 WARN  no build target for: C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\UDPClient.java
+2026.11.18 14:28:39 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\UDPClient.java. Using fallback presentation compiler.
+2026.11.18 14:28:39 WARN  Running javac-semanticdb failed for file:///C:/Users/salom/Desktop/Univalle/9_semestre/Java%20for%20networks/java-for-networks-tp-2/UDPClient.java. Output:
+
+2026.11.18 14:28:40 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\UDPClient.java. Using fallback presentation compiler.
+2026.11.18 14:28:39 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\UDPClient.java. Using fallback presentation compiler.
+2026.11.18 14:28:41 WARN  no build target for: C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\UDPClient.java
+2026.11.18 14:28:41 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\UDPClient.java. Using fallback presentation compiler.
+2026.11.18 14:29:41 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\UDPClient.java. Using fallback presentation compiler.
+2026.11.18 14:29:41 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\UDPClient.java. Using fallback presentation compiler.
+2026.11.18 14:29:41 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\UDPClient.java. Using fallback presentation compiler.
+2026.11.18 14:29:43 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\UDPClient.java. Using fallback presentation compiler.
+2026.11.18 14:29:43 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\UDPClient.java. Using fallback presentation compiler.
+2026.11.18 14:29:43 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\UDPClient.java. Using fallback presentation compiler.
+2026.11.18 14:29:43 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\UDPClient.java. Using fallback presentation compiler.
+2026.11.18 14:29:43 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\UDPClient.java. Using fallback presentation compiler.
+2026.11.18 14:29:45 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\UDPClient.java. Using fallback presentation compiler.
+2026.11.18 14:29:45 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\UDPClient.java. Using fallback presentation compiler.
+2026.11.18 14:29:45 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\UDPClient.java. Using fallback presentation compiler.
+2026.11.18 14:29:45 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\UDPClient.java. Using fallback presentation compiler.
+2026.11.18 14:29:45 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\UDPClient.java. Using fallback presentation compiler.
+2026.11.18 14:29:46 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\UDPClient.java. Using fallback presentation compiler.
+nov. 18, 2026 2:29:46 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 205
+2026.11.18 14:29:46 WARN  no build target for: C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\UDPClient.java
+2026.11.18 14:29:46 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\UDPClient.java. Using fallback presentation compiler.
+2026.11.18 14:29:46 WARN  Running javac-semanticdb failed for file:///C:/Users/salom/Desktop/Univalle/9_semestre/Java%20for%20networks/java-for-networks-tp-2/UDPClient.java. Output:
+
+2026.11.18 14:29:46 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\UDPClient.java. Using fallback presentation compiler.
+2026.11.18 14:29:48 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\UDPClient.java. Using fallback presentation compiler.
+2026.11.18 14:29:48 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\UDPClient.java. Using fallback presentation compiler.
+2026.11.18 14:29:49 WARN  no build target for: C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\UDPClient.java
+2026.11.18 14:29:49 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\UDPClient.java. Using fallback presentation compiler.
+2026.11.18 14:29:49 WARN  Running javac-semanticdb failed for file:///C:/Users/salom/Desktop/Univalle/9_semestre/Java%20for%20networks/java-for-networks-tp-2/UDPClient.java. Output:
+
+2026.11.18 14:29:56 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\UDPClient.java. Using fallback presentation compiler.
+2026.11.18 14:29:56 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\UDPClient.java. Using fallback presentation compiler.
+2026.11.18 14:29:57 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\UDPClient.java. Using fallback presentation compiler.
+2026.11.18 14:29:58 WARN  no build target for: C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\UDPClient.java
+2026.11.18 14:29:58 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\UDPClient.java. Using fallback presentation compiler.
+2026.11.18 14:29:57 WARN  Running javac-semanticdb failed for file:///C:/Users/salom/Desktop/Univalle/9_semestre/Java%20for%20networks/java-for-networks-tp-2/UDPClient.java. Output:
+
+2026.11.18 14:30:30 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\UDPClient.java. Using fallback presentation compiler.
+2026.11.18 14:30:30 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\UDPClient.java. Using fallback presentation compiler.
+2026.11.18 14:30:30 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\UDPClient.java. Using fallback presentation compiler.
+2026.11.18 14:30:37 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\UDPClient.java. Using fallback presentation compiler.
+2026.11.18 14:31:01 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\UDPClient.java. Using fallback presentation compiler.
+2026.11.18 14:32:02 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\UDPClient.java. Using fallback presentation compiler.
+2026.11.18 14:32:02 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\UDPClient.java. Using fallback presentation compiler.
+2026.11.18 14:32:02 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\UDPClient.java. Using fallback presentation compiler.
+2026.11.18 14:32:04 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\UDPClient.java. Using fallback presentation compiler.
+2026.11.18 14:32:05 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\UDPClient.java. Using fallback presentation compiler.
+2026.11.18 14:32:05 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\UDPClient.java. Using fallback presentation compiler.
+2026.11.18 14:32:21 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\UDPClient.java. Using fallback presentation compiler.
+2026.11.18 14:32:38 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\UDPClient.java. Using fallback presentation compiler.
+2026.11.18 14:33:32 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\UDPClient.java. Using fallback presentation compiler.
+2026.11.18 14:35:37 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\UDPClient.java. Using fallback presentation compiler.
+2026.11.18 14:35:37 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\UDPClient.java. Using fallback presentation compiler.
+2026.11.18 14:35:37 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\UDPClient.java. Using fallback presentation compiler.
+2026.11.18 14:35:37 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\UDPClient.java. Using fallback presentation compiler.
+2026.11.18 14:35:38 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\UDPClient.java. Using fallback presentation compiler.
+2026.11.18 14:35:38 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\UDPClient.java. Using fallback presentation compiler.
+2026.11.18 14:35:38 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\UDPClient.java. Using fallback presentation compiler.
+2026.11.18 14:35:38 WARN  no build target for: C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\UDPClient.java
+2026.11.18 14:35:38 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\UDPClient.java. Using fallback presentation compiler.
+2026.11.18 15:22:15 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\UDPServer.java. Using fallback presentation compiler.
+2026.11.18 15:22:15 WARN  no build target for: C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\UDPServer.java
+2026.11.18 15:22:15 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\UDPServer.java. Using fallback presentation compiler.
+nov. 18, 2026 3:22:15 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 288
+2026.11.18 15:22:15 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\UDPServer.java. Using fallback presentation compiler.
+2026.11.18 15:22:15 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\UDPServer.java. Using fallback presentation compiler.
