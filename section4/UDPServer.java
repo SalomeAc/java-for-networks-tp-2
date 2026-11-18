@@ -1,5 +1,3 @@
-package section4;
-
 import java.io.IOException;
 import java.net.DatagramPacket;
 import java.net.DatagramSocket;
@@ -9,6 +7,8 @@ import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Map;
 import java.util.Set;
+
+// Step 11: the server now tracks the sequence numbers of messages from each client, and reports missing or out-of-order messages.
 
 public class UDPServer {
 

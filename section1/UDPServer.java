@@ -1,10 +1,10 @@
-package section1;
-
 import java.io.IOException;
 import java.net.DatagramPacket;
 import java.net.DatagramSocket;
 import java.net.SocketException;
 import java.nio.charset.StandardCharsets;
+
+// Before modifications of step 5, the server printed the raw bytes of each datagram.
 
 public class UDPServer {
 

@@ -1,4 +1,3 @@
-package section4;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -39,7 +38,7 @@ public class UDPClient {
                 DatagramPacket packet =
                         new DatagramPacket(data, data.length, serverAddress, serverPort);
                 socket.send(packet);
-                System.out.println("sent #" + nextSeq);
+                System.out.println(numbered);
                 nextSeq++;
             }
         }
