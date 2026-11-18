@@ -8,8 +8,6 @@ import java.util.HashSet;
 import java.util.Map;
 import java.util.Set;
 
-// Step 11: the server now tracks the sequence numbers of messages from each client, and reports missing or out-of-order messages.
-
 public class UDPServer {
 
     public static final int DEFAULT_PORT = 8080;
@@ -66,15 +64,36 @@ public class UDPServer {
                 String sender = packet.getAddress().getHostAddress() + ":" + packet.getPort();
                 String prefix = sender + " (" + packet.getLength() + " bytes) ";
 
-                handleMessage(sender, prefix, msg);
+                int seq = handleMessage(sender, prefix, msg);
+
+                // Step 12: acknowledge every numbered message, even duplicates
+                // (if our previous ACK was lost, the client is waiting for a new one)
+                if (seq >= 0) {
+                    sendAck(socket, packet, seq);
+                }
             }
         } finally {
             running = false;
         }
     }
 
-    /** Extracts the sequence number and reports missing or out-of-order messages. */
-    private void handleMessage(String sender, String prefix, String msg) {
+    /** Sends "ACK:n" back to the address and port the datagram came from. */
+    private void sendAck(DatagramSocket socket, DatagramPacket received, int seq) {
+        byte[] data = ("ACK:" + seq).getBytes(StandardCharsets.UTF_8);
+        DatagramPacket ack = new DatagramPacket(data, data.length,
+                                                received.getAddress(), received.getPort());
+        try {
+            socket.send(ack);
+        } catch (IOException e) {
+            System.err.println("Cannot send ACK:" + seq + ": " + e.getMessage());
+        }
+    }
+
+    /**
+     * Extracts the sequence number and reports missing or out-of-order messages.
+     * Returns the sequence number, or -1 if the message has none.
+     */
+    private int handleMessage(String sender, String prefix, String msg) {
         int sep = msg.indexOf(':');
         int seq;
         try {
@@ -82,7 +101,7 @@ public class UDPServer {
             seq = Integer.parseInt(msg.substring(0, sep));
         } catch (NumberFormatException e) {
             System.out.println(prefix + "[no sequence number] > " + msg);
-            return;
+            return -1;
         }
         String text = msg.substring(sep + 1);
 
@@ -116,6 +135,7 @@ public class UDPServer {
                                    + "   !! DUPLICATE (already received)");
             }
         }
+        return seq;
     }
 
     @Override

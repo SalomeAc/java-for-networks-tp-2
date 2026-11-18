@@ -1045,3 +1045,780 @@ ADVERTENCIA: Unmatched cancel notification for request id 1315
 2026.11.18 17:14:33 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\section4\UDPClient.java. Using fallback presentation compiler.
 2026.11.18 17:14:34 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\section4\UDPClient.java. Using fallback presentation compiler.
 2026.11.18 17:15:44 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\section4\UDPClient.java. Using fallback presentation compiler.
+2026.11.18 17:19:22 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\section4\UDPClient.java. Using fallback presentation compiler.
+2026.11.18 17:19:22 WARN  no build target for: C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\section4\UDPClient.java
+nov. 18, 2026 5:19:22 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 1376
+nov. 18, 2026 5:19:22 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+ADVERTENCIA: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "metals/didFocusTextDocument",
+  "params": [
+    "class:/c%3A/Users/salom/Desktop/Univalle/9_semestre/Java%20for%20networks/java-for-networks-tp-2/section4/UDPClient.class"
+  ]
+}
+java.nio.file.FileSystemNotFoundException: Provider "class" not installed
+	at java.base/java.nio.file.Path.of(Path.java:212)
+	at java.base/java.nio.file.Paths.get(Paths.java:98)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionURIMtags.toAbsolutePath(MtagsEnrichments.scala:149)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:221)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:787)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:784)
+	at scala.meta.internal.metals.WorkspaceLspService.didFocus(WorkspaceLspService.scala:810)
+	at scala.meta.metals.lsp.DelegatingScalaService.didFocus(DelegatingScalaService.scala:42)
+	at jdk.internal.reflect.GeneratedMethodAccessor14.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:160)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:225)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:192)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:189)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:97)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+2026.11.18 17:19:23 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\section4\UDPClient.java. Using fallback presentation compiler.
+2026.11.18 17:19:23 WARN  no build target for: C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\section4\UDPClient.java
+2026.11.18 17:19:23 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\section4\UDPClient.java. Using fallback presentation compiler.
+2026.11.18 17:19:23 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\section4\UDPClient.java. Using fallback presentation compiler.
+nov. 18, 2026 5:19:23 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 1379
+2026.11.18 17:19:23 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\section4\UDPClient.java. Using fallback presentation compiler.
+2026.11.18 17:19:23 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\section4\UDPClient.java. Using fallback presentation compiler.
+2026.11.18 17:19:25 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\section4\UDPClient.java. Using fallback presentation compiler.
+2026.11.18 17:19:25 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\section4\UDPClient.java. Using fallback presentation compiler.
+2026.11.18 17:19:27 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\section4\UDPClient.java. Using fallback presentation compiler.
+2026.11.18 17:19:27 WARN  no build target for: C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\section4\UDPClient.java
+2026.11.18 17:19:27 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\section4\UDPClient.java. Using fallback presentation compiler.
+2026.11.18 17:19:27 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\section4\UDPClient.java. Using fallback presentation compiler.
+nov. 18, 2026 5:19:27 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+ADVERTENCIA: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "metals/didFocusTextDocument",
+  "params": [
+    "class:/c%3A/Users/salom/Desktop/Univalle/9_semestre/Java%20for%20networks/java-for-networks-tp-2/section4/UDPServer.class"
+  ]
+}
+java.nio.file.FileSystemNotFoundException: Provider "class" not installed
+	at java.base/java.nio.file.Path.of(Path.java:212)
+	at java.base/java.nio.file.Paths.get(Paths.java:98)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionURIMtags.toAbsolutePath(MtagsEnrichments.scala:149)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:221)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:787)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:784)
+	at scala.meta.internal.metals.WorkspaceLspService.didFocus(WorkspaceLspService.scala:810)
+	at scala.meta.metals.lsp.DelegatingScalaService.didFocus(DelegatingScalaService.scala:42)
+	at jdk.internal.reflect.GeneratedMethodAccessor14.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:160)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:225)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:192)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:189)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:97)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+nov. 18, 2026 5:19:29 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+ADVERTENCIA: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "metals/didFocusTextDocument",
+  "params": [
+    "class:/c%3A/Users/salom/Desktop/Univalle/9_semestre/Java%20for%20networks/java-for-networks-tp-2/section4/UDPServer.class"
+  ]
+}
+java.nio.file.FileSystemNotFoundException: Provider "class" not installed
+	at java.base/java.nio.file.Path.of(Path.java:212)
+	at java.base/java.nio.file.Paths.get(Paths.java:98)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionURIMtags.toAbsolutePath(MtagsEnrichments.scala:149)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:221)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:787)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:784)
+	at scala.meta.internal.metals.WorkspaceLspService.didFocus(WorkspaceLspService.scala:810)
+	at scala.meta.metals.lsp.DelegatingScalaService.didFocus(DelegatingScalaService.scala:42)
+	at jdk.internal.reflect.GeneratedMethodAccessor14.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:160)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:225)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:192)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:189)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:97)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+2026.11.18 17:19:30 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\section4\UDPServer.java. Using fallback presentation compiler.
+2026.11.18 17:19:30 WARN  no build target for: C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\section4\UDPServer.java
+2026.11.18 17:19:30 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\section4\UDPServer.java. Using fallback presentation compiler.
+2026.11.18 17:19:33 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\section4\UDPServer.java. Using fallback presentation compiler.
+nov. 18, 2026 5:19:34 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 1409
+2026.11.18 17:19:34 WARN  no build target for: C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\section4\UDPServer.java
+nov. 18, 2026 5:19:34 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+ADVERTENCIA: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "metals/didFocusTextDocument",
+  "params": [
+    "class:/c%3A/Users/salom/Desktop/Univalle/9_semestre/Java%20for%20networks/java-for-networks-tp-2/section4/UDPServer%24ClientState.class"
+  ]
+}
+java.nio.file.FileSystemNotFoundException: Provider "class" not installed
+	at java.base/java.nio.file.Path.of(Path.java:212)
+	at java.base/java.nio.file.Paths.get(Paths.java:98)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionURIMtags.toAbsolutePath(MtagsEnrichments.scala:149)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:221)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:787)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:784)
+	at scala.meta.internal.metals.WorkspaceLspService.didFocus(WorkspaceLspService.scala:810)
+	at scala.meta.metals.lsp.DelegatingScalaService.didFocus(DelegatingScalaService.scala:42)
+	at jdk.internal.reflect.GeneratedMethodAccessor14.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:160)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:225)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:192)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:189)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:97)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+2026.11.18 17:19:42 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\section4\UDPServer.java. Using fallback presentation compiler.
+2026.11.18 17:19:42 WARN  no build target for: C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\section4\UDPServer.java
+2026.11.18 17:19:42 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\section4\UDPServer.java. Using fallback presentation compiler.
+2026.11.18 17:19:52 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\section4\UDPClient.java. Using fallback presentation compiler.
+2026.11.18 17:19:52 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\section4\UDPServer.java. Using fallback presentation compiler.
+2026.11.18 17:19:52 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\section4\UDPServer.java. Using fallback presentation compiler.
+2026.11.18 17:19:52 WARN  Running javac-semanticdb failed for file:///C:/Users/salom/Desktop/Univalle/9_semestre/Java%20for%20networks/java-for-networks-tp-2/section4/UDPServer.java. Output:
+
+2026.11.18 17:19:54 WARN  no build target for: C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\section4\UDPServer.java
+2026.11.18 17:19:54 WARN  no build target for: C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\section4\UDPClient.java
+2026.11.18 17:19:54 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\section4\UDPServer.java. Using fallback presentation compiler.
+2026.11.18 17:19:54 WARN  Running javac-semanticdb failed for file:///C:/Users/salom/Desktop/Univalle/9_semestre/Java%20for%20networks/java-for-networks-tp-2/section4/UDPClient.java. Output:
+
+2026.11.18 17:19:54 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\section4\UDPServer.java. Using fallback presentation compiler.
+nov. 18, 2026 5:20:02 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+ADVERTENCIA: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "metals/didFocusTextDocument",
+  "params": [
+    "class:/c%3A/Users/salom/Desktop/Univalle/9_semestre/Java%20for%20networks/java-for-networks-tp-2/section4/UDPClient.class"
+  ]
+}
+java.nio.file.FileSystemNotFoundException: Provider "class" not installed
+	at java.base/java.nio.file.Path.of(Path.java:212)
+	at java.base/java.nio.file.Paths.get(Paths.java:98)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionURIMtags.toAbsolutePath(MtagsEnrichments.scala:149)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:221)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:787)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:784)
+	at scala.meta.internal.metals.WorkspaceLspService.didFocus(WorkspaceLspService.scala:810)
+	at scala.meta.metals.lsp.DelegatingScalaService.didFocus(DelegatingScalaService.scala:42)
+	at jdk.internal.reflect.GeneratedMethodAccessor14.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:160)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:225)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:192)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:189)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:97)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+nov. 18, 2026 5:20:19 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+ADVERTENCIA: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "metals/didFocusTextDocument",
+  "params": [
+    "class:/c%3A/Users/salom/Desktop/Univalle/9_semestre/Java%20for%20networks/java-for-networks-tp-2/section4/UDPClient.class"
+  ]
+}
+java.nio.file.FileSystemNotFoundException: Provider "class" not installed
+	at java.base/java.nio.file.Path.of(Path.java:212)
+	at java.base/java.nio.file.Paths.get(Paths.java:98)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionURIMtags.toAbsolutePath(MtagsEnrichments.scala:149)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:221)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:787)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:784)
+	at scala.meta.internal.metals.WorkspaceLspService.didFocus(WorkspaceLspService.scala:810)
+	at scala.meta.metals.lsp.DelegatingScalaService.didFocus(DelegatingScalaService.scala:42)
+	at jdk.internal.reflect.GeneratedMethodAccessor14.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:160)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:225)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:192)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:189)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:97)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+2026.11.18 17:20:20 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\section4\UDPClient.java. Using fallback presentation compiler.
+2026.11.18 17:20:20 WARN  no build target for: C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\section4\UDPClient.java
+2026.11.18 17:20:20 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\section4\UDPClient.java. Using fallback presentation compiler.
+2026.11.18 17:20:20 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\section4\UDPClient.java. Using fallback presentation compiler.
+2026.11.18 17:20:20 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\section4\UDPClient.java. Using fallback presentation compiler.
+2026.11.18 17:20:20 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\section4\UDPClient.java. Using fallback presentation compiler.
+2026.11.18 17:20:21 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\section4\UDPClient.java. Using fallback presentation compiler.
+2026.11.18 17:20:21 WARN  no build target for: C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\section4\UDPClient.java
+nov. 18, 2026 5:20:21 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 1442
+nov. 18, 2026 5:20:21 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+ADVERTENCIA: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "metals/didFocusTextDocument",
+  "params": [
+    "class:/c%3A/Users/salom/Desktop/Univalle/9_semestre/Java%20for%20networks/java-for-networks-tp-2/section4/UDPServer.class"
+  ]
+}
+java.nio.file.FileSystemNotFoundException: Provider "class" not installed
+	at java.base/java.nio.file.Path.of(Path.java:212)
+	at java.base/java.nio.file.Paths.get(Paths.java:98)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionURIMtags.toAbsolutePath(MtagsEnrichments.scala:149)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:221)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:787)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:784)
+	at scala.meta.internal.metals.WorkspaceLspService.didFocus(WorkspaceLspService.scala:810)
+	at scala.meta.metals.lsp.DelegatingScalaService.didFocus(DelegatingScalaService.scala:42)
+	at jdk.internal.reflect.GeneratedMethodAccessor14.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:160)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:225)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:192)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:189)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:97)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+nov. 18, 2026 5:20:23 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+ADVERTENCIA: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "metals/didFocusTextDocument",
+  "params": [
+    "class:/c%3A/Users/salom/Desktop/Univalle/9_semestre/Java%20for%20networks/java-for-networks-tp-2/section4/UDPServer.class"
+  ]
+}
+java.nio.file.FileSystemNotFoundException: Provider "class" not installed
+	at java.base/java.nio.file.Path.of(Path.java:212)
+	at java.base/java.nio.file.Paths.get(Paths.java:98)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionURIMtags.toAbsolutePath(MtagsEnrichments.scala:149)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:221)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:787)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:784)
+	at scala.meta.internal.metals.WorkspaceLspService.didFocus(WorkspaceLspService.scala:810)
+	at scala.meta.metals.lsp.DelegatingScalaService.didFocus(DelegatingScalaService.scala:42)
+	at jdk.internal.reflect.GeneratedMethodAccessor14.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:160)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:225)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:192)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:189)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:97)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+2026.11.18 17:20:24 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\section4\UDPServer.java. Using fallback presentation compiler.
+2026.11.18 17:20:24 WARN  no build target for: C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\section4\UDPServer.java
+2026.11.18 17:20:24 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\section4\UDPServer.java. Using fallback presentation compiler.
+2026.11.18 17:20:27 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\section4\UDPServer.java. Using fallback presentation compiler.
+2026.11.18 17:20:27 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\section4\UDPServer.java. Using fallback presentation compiler.
+2026.11.18 17:20:27 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\section4\UDPServer.java. Using fallback presentation compiler.
+2026.11.18 17:20:28 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\section4\UDPServer.java. Using fallback presentation compiler.
+2026.11.18 17:20:29 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\section4\UDPServer.java. Using fallback presentation compiler.
+2026.11.18 17:20:29 WARN  Running javac-semanticdb failed for file:///C:/Users/salom/Desktop/Univalle/9_semestre/Java%20for%20networks/java-for-networks-tp-2/section4/UDPServer.java. Output:
+
+2026.11.18 17:20:28 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\section4\UDPServer.java. Using fallback presentation compiler.
+2026.11.18 17:20:28 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\section4\UDPServer.java. Using fallback presentation compiler.
+2026.11.18 17:20:29 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\section4\UDPServer.java. Using fallback presentation compiler.
+2026.11.18 17:20:29 WARN  Running javac-semanticdb failed for file:///C:/Users/salom/Desktop/Univalle/9_semestre/Java%20for%20networks/java-for-networks-tp-2/section4/UDPServer.java. Output:
+
+2026.11.18 17:20:30 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\section4\UDPServer.java. Using fallback presentation compiler.
+2026.11.18 17:20:30 WARN  no build target for: C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\section4\UDPServer.java
+2026.11.18 17:20:30 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\section4\UDPServer.java. Using fallback presentation compiler.
+2026.11.18 17:20:30 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\section4\UDPServer.java. Using fallback presentation compiler.
+2026.11.18 17:20:31 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\section4\UDPServer.java. Using fallback presentation compiler.
+2026.11.18 17:20:31 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\section4\UDPServer.java. Using fallback presentation compiler.
+2026.11.18 17:20:41 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\section4\UDPServer.java. Using fallback presentation compiler.
+2026.11.18 17:20:41 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\section4\UDPServer.java. Using fallback presentation compiler.
+2026.11.18 17:20:42 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\section4\UDPServer.java. Using fallback presentation compiler.
+2026.11.18 17:20:42 WARN  Running javac-semanticdb failed for file:///C:/Users/salom/Desktop/Univalle/9_semestre/Java%20for%20networks/java-for-networks-tp-2/section4/UDPServer.java. Output:
+
+2026.11.18 17:20:41 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\section4\UDPServer.java. Using fallback presentation compiler.
+2026.11.18 17:20:43 WARN  no build target for: C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\section4\UDPServer.java
+2026.11.18 17:20:44 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\section4\UDPServer.java. Using fallback presentation compiler.
+2026.11.18 17:20:44 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\section4\UDPServer.java. Using fallback presentation compiler.
+2026.11.18 17:20:44 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\section4\UDPServer.java. Using fallback presentation compiler.
+2026.11.18 17:20:45 WARN  no build target for: C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\section4\UDPServer.java
+2026.11.18 17:20:45 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\section4\UDPServer.java. Using fallback presentation compiler.
+2026.11.18 17:20:44 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\section4\UDPServer.java. Using fallback presentation compiler.
+nov. 18, 2026 5:20:45 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 1488
+nov. 18, 2026 5:20:45 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+ADVERTENCIA: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "metals/didFocusTextDocument",
+  "params": [
+    "class:/c%3A/Users/salom/Desktop/Univalle/9_semestre/Java%20for%20networks/java-for-networks-tp-2/section4/UDPServer%24ClientState.class"
+  ]
+}
+java.nio.file.FileSystemNotFoundException: Provider "class" not installed
+	at java.base/java.nio.file.Path.of(Path.java:212)
+	at java.base/java.nio.file.Paths.get(Paths.java:98)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionURIMtags.toAbsolutePath(MtagsEnrichments.scala:149)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:221)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:787)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:784)
+	at scala.meta.internal.metals.WorkspaceLspService.didFocus(WorkspaceLspService.scala:810)
+	at scala.meta.metals.lsp.DelegatingScalaService.didFocus(DelegatingScalaService.scala:42)
+	at jdk.internal.reflect.GeneratedMethodAccessor14.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:160)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:225)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:192)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:189)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:97)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+2026.11.18 17:20:49 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\section4\UDPServer.java. Using fallback presentation compiler.
+2026.11.18 17:20:49 WARN  no build target for: C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\section4\UDPServer.java
+2026.11.18 17:20:49 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\section4\UDPServer.java. Using fallback presentation compiler.
+2026.11.18 17:20:49 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\section4\UDPServer.java. Using fallback presentation compiler.
+2026.11.18 17:20:49 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\section4\UDPServer.java. Using fallback presentation compiler.
+2026.11.18 17:20:49 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\section4\UDPServer.java. Using fallback presentation compiler.
+2026.11.18 17:20:50 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\section4\UDPServer.java. Using fallback presentation compiler.
+2026.11.18 17:20:50 WARN  no build target for: C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\section4\UDPServer.java
+nov. 18, 2026 5:20:50 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 1497
+nov. 18, 2026 5:20:50 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+ADVERTENCIA: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "metals/didFocusTextDocument",
+  "params": [
+    "class:/c%3A/Users/salom/Desktop/Univalle/9_semestre/Java%20for%20networks/java-for-networks-tp-2/section4/UDPServer%24ClientState.class"
+  ]
+}
+java.nio.file.FileSystemNotFoundException: Provider "class" not installed
+	at java.base/java.nio.file.Path.of(Path.java:212)
+	at java.base/java.nio.file.Paths.get(Paths.java:98)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionURIMtags.toAbsolutePath(MtagsEnrichments.scala:149)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:221)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:787)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:784)
+	at scala.meta.internal.metals.WorkspaceLspService.didFocus(WorkspaceLspService.scala:810)
+	at scala.meta.metals.lsp.DelegatingScalaService.didFocus(DelegatingScalaService.scala:42)
+	at jdk.internal.reflect.GeneratedMethodAccessor14.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:160)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:225)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:192)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:189)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:97)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+nov. 18, 2026 5:20:55 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+ADVERTENCIA: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "metals/didFocusTextDocument",
+  "params": [
+    "class:/c%3A/Users/salom/Desktop/Univalle/9_semestre/Java%20for%20networks/java-for-networks-tp-2/section4/UDPServer%24ClientState.class"
+  ]
+}
+java.nio.file.FileSystemNotFoundException: Provider "class" not installed
+	at java.base/java.nio.file.Path.of(Path.java:212)
+	at java.base/java.nio.file.Paths.get(Paths.java:98)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionURIMtags.toAbsolutePath(MtagsEnrichments.scala:149)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:221)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:787)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:784)
+	at scala.meta.internal.metals.WorkspaceLspService.didFocus(WorkspaceLspService.scala:810)
+	at scala.meta.metals.lsp.DelegatingScalaService.didFocus(DelegatingScalaService.scala:42)
+	at jdk.internal.reflect.GeneratedMethodAccessor14.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:160)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:225)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:192)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:189)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:97)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+nov. 18, 2026 5:20:57 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+ADVERTENCIA: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "metals/didFocusTextDocument",
+  "params": [
+    "class:/c%3A/Users/salom/Desktop/Univalle/9_semestre/Java%20for%20networks/java-for-networks-tp-2/section4/UDPServer%24ClientState.class"
+  ]
+}
+java.nio.file.FileSystemNotFoundException: Provider "class" not installed
+	at java.base/java.nio.file.Path.of(Path.java:212)
+	at java.base/java.nio.file.Paths.get(Paths.java:98)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionURIMtags.toAbsolutePath(MtagsEnrichments.scala:149)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:221)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:787)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:784)
+	at scala.meta.internal.metals.WorkspaceLspService.didFocus(WorkspaceLspService.scala:810)
+	at scala.meta.metals.lsp.DelegatingScalaService.didFocus(DelegatingScalaService.scala:42)
+	at jdk.internal.reflect.GeneratedMethodAccessor14.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:160)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:225)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:192)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:189)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:97)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+2026.11.18 17:21:33 INFO  no build target found for c:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\section4\UDPServer.java. Using fallback presentation compiler.
+2026.11.18 17:21:33 INFO  no build target found for c:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\section4\UDPClient.java. Using fallback presentation compiler.
+2026.11.18 17:21:33 WARN  no build target for: C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\step11\UDPServer.java
+2026.11.18 17:21:33 WARN  no build target for: C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\step11\UDPClient.java
+2026.11.18 17:21:33 WARN  Running javac-semanticdb failed for file:///C:/Users/salom/Desktop/Univalle/9_semestre/Java%20for%20networks/java-for-networks-tp-2/step11/UDPServer.java. Output:
+
+2026.11.18 17:21:33 WARN  Running javac-semanticdb failed for file:///C:/Users/salom/Desktop/Univalle/9_semestre/Java%20for%20networks/java-for-networks-tp-2/step11/UDPClient.java. Output:
+
+2026.11.18 17:21:35 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\section1\UDPServer.java. Using fallback presentation compiler.
+2026.11.18 17:21:35 WARN  no build target for: C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\section1\UDPServer.java
+2026.11.18 17:21:35 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\section1\UDPServer.java. Using fallback presentation compiler.
+2026.11.18 17:21:35 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\section1\UDPServer.java. Using fallback presentation compiler.
+2026.11.18 17:21:35 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\section1\UDPServer.java. Using fallback presentation compiler.
+2026.11.18 17:22:18 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\section1\UDPServer.java. Using fallback presentation compiler.
+2026.11.18 17:22:19 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\section1\UDPServer.java. Using fallback presentation compiler.
+2026.11.18 17:22:19 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\section1\UDPServer.java. Using fallback presentation compiler.
+2026.11.18 17:22:47 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\section1\UDPServer.java. Using fallback presentation compiler.
+2026.11.18 17:22:47 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\section1\UDPServer.java. Using fallback presentation compiler.
+2026.11.18 17:22:47 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\section1\UDPServer.java. Using fallback presentation compiler.
+2026.11.18 17:22:48 WARN  Running javac-semanticdb failed for file:///C:/Users/salom/Desktop/Univalle/9_semestre/Java%20for%20networks/java-for-networks-tp-2/section1/UDPServer.java. Output:
+
+2026.11.18 17:22:48 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\section1\UDPServer.java. Using fallback presentation compiler.
+2026.11.18 17:22:47 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\section1\UDPServer.java. Using fallback presentation compiler.
+2026.11.18 17:22:49 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\section1\UDPServer.java. Using fallback presentation compiler.
+2026.11.18 17:22:50 WARN  no build target for: C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\section1\UDPServer.java
+2026.11.18 17:22:50 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\section1\UDPServer.java. Using fallback presentation compiler.
+2026.11.18 17:22:49 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\section1\UDPServer.java. Using fallback presentation compiler.
+2026.11.18 17:22:49 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\section1\UDPServer.java. Using fallback presentation compiler.
+2026.11.18 17:22:50 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\section1\UDPServer.java. Using fallback presentation compiler.
+2026.11.18 17:22:50 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\section1\UDPServer.java. Using fallback presentation compiler.
+2026.11.18 17:22:50 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\section1\UDPServer.java. Using fallback presentation compiler.
+2026.11.18 17:22:52 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\section1\UDPServer.java. Using fallback presentation compiler.
+2026.11.18 17:22:52 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\section1\UDPServer.java. Using fallback presentation compiler.
+2026.11.18 17:22:52 WARN  Running javac-semanticdb failed for file:///C:/Users/salom/Desktop/Univalle/9_semestre/Java%20for%20networks/java-for-networks-tp-2/section1/UDPServer.java. Output:
+
+2026.11.18 17:22:52 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\section1\UDPServer.java. Using fallback presentation compiler.
+2026.11.18 17:22:53 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\section1\UDPServer.java. Using fallback presentation compiler.
+2026.11.18 17:22:53 WARN  Running javac-semanticdb failed for file:///C:/Users/salom/Desktop/Univalle/9_semestre/Java%20for%20networks/java-for-networks-tp-2/section1/UDPServer.java. Output:
+
+2026.11.18 17:22:53 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\section1\UDPServer.java. Using fallback presentation compiler.
+2026.11.18 17:22:53 WARN  no build target for: C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\section1\UDPServer.java
+2026.11.18 17:22:54 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\section1\UDPServer.java. Using fallback presentation compiler.
+2026.11.18 17:22:53 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\section1\UDPServer.java. Using fallback presentation compiler.
+2026.11.18 17:23:00 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\section1\UDPServer.java. Using fallback presentation compiler.
+2026.11.18 17:23:00 WARN  no build target for: C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\section1\UDPServer.java
+2026.11.18 17:23:00 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\section1\UDPServer.java. Using fallback presentation compiler.
+nov. 18, 2026 5:23:00 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+ADVERTENCIA: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "metals/didFocusTextDocument",
+  "params": [
+    "class:/c%3A/Users/salom/Desktop/Univalle/9_semestre/Java%20for%20networks/java-for-networks-tp-2/UDPClient.class"
+  ]
+}
+java.nio.file.FileSystemNotFoundException: Provider "class" not installed
+	at java.base/java.nio.file.Path.of(Path.java:212)
+	at java.base/java.nio.file.Paths.get(Paths.java:98)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionURIMtags.toAbsolutePath(MtagsEnrichments.scala:149)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:221)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:787)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:784)
+	at scala.meta.internal.metals.WorkspaceLspService.didFocus(WorkspaceLspService.scala:810)
+	at scala.meta.metals.lsp.DelegatingScalaService.didFocus(DelegatingScalaService.scala:42)
+	at jdk.internal.reflect.GeneratedMethodAccessor14.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:160)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:225)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:192)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:189)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:97)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+nov. 18, 2026 5:23:01 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+ADVERTENCIA: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "metals/didFocusTextDocument",
+  "params": [
+    "class:/c%3A/Users/salom/Desktop/Univalle/9_semestre/Java%20for%20networks/java-for-networks-tp-2/UDPClient.class"
+  ]
+}
+java.nio.file.FileSystemNotFoundException: Provider "class" not installed
+	at java.base/java.nio.file.Path.of(Path.java:212)
+	at java.base/java.nio.file.Paths.get(Paths.java:98)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionURIMtags.toAbsolutePath(MtagsEnrichments.scala:149)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:221)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:787)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:784)
+	at scala.meta.internal.metals.WorkspaceLspService.didFocus(WorkspaceLspService.scala:810)
+	at scala.meta.metals.lsp.DelegatingScalaService.didFocus(DelegatingScalaService.scala:42)
+	at jdk.internal.reflect.GeneratedMethodAccessor14.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:160)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:225)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:192)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:189)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:97)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+2026.11.18 17:23:02 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\UDPClient.java. Using fallback presentation compiler.
+2026.11.18 17:23:02 WARN  no build target for: C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\UDPClient.java
+2026.11.18 17:23:02 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\UDPClient.java. Using fallback presentation compiler.
+2026.11.18 17:23:02 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\UDPClient.java. Using fallback presentation compiler.
+2026.11.18 17:23:02 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\UDPClient.java. Using fallback presentation compiler.
+2026.11.18 17:23:02 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\UDPClient.java. Using fallback presentation compiler.
+2026.11.18 17:23:03 WARN  no build target for: C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\UDPClient.java
+nov. 18, 2026 5:23:03 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 1582
+nov. 18, 2026 5:23:03 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+ADVERTENCIA: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "metals/didFocusTextDocument",
+  "params": [
+    "class:/c%3A/Users/salom/Desktop/Univalle/9_semestre/Java%20for%20networks/java-for-networks-tp-2/UDPServer.class"
+  ]
+}
+java.nio.file.FileSystemNotFoundException: Provider "class" not installed
+	at java.base/java.nio.file.Path.of(Path.java:212)
+	at java.base/java.nio.file.Paths.get(Paths.java:98)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionURIMtags.toAbsolutePath(MtagsEnrichments.scala:149)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:221)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:787)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:784)
+	at scala.meta.internal.metals.WorkspaceLspService.didFocus(WorkspaceLspService.scala:810)
+	at scala.meta.metals.lsp.DelegatingScalaService.didFocus(DelegatingScalaService.scala:42)
+	at jdk.internal.reflect.GeneratedMethodAccessor14.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:160)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:225)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:192)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:189)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:97)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+2026.11.18 17:23:04 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\UDPServer.java. Using fallback presentation compiler.
+2026.11.18 17:23:04 WARN  no build target for: C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\UDPServer.java
+2026.11.18 17:23:04 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\UDPServer.java. Using fallback presentation compiler.
+2026.11.18 17:23:04 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\UDPServer.java. Using fallback presentation compiler.
+2026.11.18 17:23:04 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\UDPServer.java. Using fallback presentation compiler.
+2026.11.18 17:23:04 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\UDPServer.java. Using fallback presentation compiler.
+2026.11.18 17:23:04 WARN  no build target for: C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\UDPServer.java
+2026.11.18 17:23:05 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\UDPServer.java. Using fallback presentation compiler.
+nov. 18, 2026 5:23:05 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 1592
+2026.11.18 17:23:05 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\UDPServer.java. Using fallback presentation compiler.
+nov. 18, 2026 5:23:05 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+ADVERTENCIA: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "metals/didFocusTextDocument",
+  "params": [
+    "class:/c%3A/Users/salom/Desktop/Univalle/9_semestre/Java%20for%20networks/java-for-networks-tp-2/UDPSizeTest.class"
+  ]
+}
+java.nio.file.FileSystemNotFoundException: Provider "class" not installed
+	at java.base/java.nio.file.Path.of(Path.java:212)
+	at java.base/java.nio.file.Paths.get(Paths.java:98)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionURIMtags.toAbsolutePath(MtagsEnrichments.scala:149)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:221)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:787)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:784)
+	at scala.meta.internal.metals.WorkspaceLspService.didFocus(WorkspaceLspService.scala:810)
+	at scala.meta.metals.lsp.DelegatingScalaService.didFocus(DelegatingScalaService.scala:42)
+	at jdk.internal.reflect.GeneratedMethodAccessor14.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:160)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:225)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:192)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:189)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:97)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+2026.11.18 17:23:05 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\UDPSizeTest.java. Using fallback presentation compiler.
+2026.11.18 17:23:05 WARN  no build target for: C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\UDPSizeTest.java
+2026.11.18 17:23:05 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\UDPSizeTest.java. Using fallback presentation compiler.
+2026.11.18 17:23:05 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\UDPSizeTest.java. Using fallback presentation compiler.
+2026.11.18 17:23:05 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\UDPSizeTest.java. Using fallback presentation compiler.
+2026.11.18 17:23:07 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\section1\UDPServer.java. Using fallback presentation compiler.
+2026.11.18 17:23:07 WARN  no build target for: C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\section1\UDPServer.java
+2026.11.18 17:23:07 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\section1\UDPServer.java. Using fallback presentation compiler.
+2026.11.18 17:23:22 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\section1\UDPServer.java. Using fallback presentation compiler.
+2026.11.18 17:23:27 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\section1\UDPServer.java. Using fallback presentation compiler.
+2026.11.18 17:23:33 WARN  no build target for: C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\step12\UDPClient.java
+2026.11.18 17:23:33 WARN  Running javac-semanticdb failed for file:///C:/Users/salom/Desktop/Univalle/9_semestre/Java%20for%20networks/java-for-networks-tp-2/step12/UDPClient.java. Output:
+
+2026.11.18 17:23:33 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\step12\UDPClient.java. Using fallback presentation compiler.
+2026.11.18 17:23:33 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\step12\UDPClient.java. Using fallback presentation compiler.
+2026.11.18 17:23:33 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\step12\UDPClient.java. Using fallback presentation compiler.
+2026.11.18 17:23:33 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\step12\UDPClient.java. Using fallback presentation compiler.
+2026.11.18 17:23:33 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\step12\UDPClient.java. Using fallback presentation compiler.
+2026.11.18 17:23:34 WARN  no build target for: C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\step12\UDPClient.java
+2026.11.18 17:23:35 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\step12\UDPClient.java. Using fallback presentation compiler.
+2026.11.18 17:23:35 WARN  Running javac-semanticdb failed for file:///C:/Users/salom/Desktop/Univalle/9_semestre/Java%20for%20networks/java-for-networks-tp-2/step12/UDPClient.java. Output:
+
+2026.11.18 17:23:35 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\step12\UDPClient.java. Using fallback presentation compiler.
+2026.11.18 17:23:35 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\step12\UDPClient.java. Using fallback presentation compiler.
+2026.11.18 17:23:35 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\step12\UDPClient.java. Using fallback presentation compiler.
+2026.11.18 17:23:35 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\step12\UDPClient.java. Using fallback presentation compiler.
+2026.11.18 17:23:35 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\step12\UDPClient.java. Using fallback presentation compiler.
+2026.11.18 17:23:36 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\step12\UDPClient.java. Using fallback presentation compiler.
+2026.11.18 17:23:37 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\step12\UDPClient.java. Using fallback presentation compiler.
+2026.11.18 17:23:37 WARN  no build target for: C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\step12\UDPClient.java
+2026.11.18 17:23:37 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\step12\UDPClient.java. Using fallback presentation compiler.
+2026.11.18 17:23:37 WARN  Running javac-semanticdb failed for file:///C:/Users/salom/Desktop/Univalle/9_semestre/Java%20for%20networks/java-for-networks-tp-2/step12/UDPClient.java. Output:
+
+2026.11.18 17:23:48 WARN  no build target for: C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\step12\UDPServer.java
+2026.11.18 17:23:48 WARN  Running javac-semanticdb failed for file:///C:/Users/salom/Desktop/Univalle/9_semestre/Java%20for%20networks/java-for-networks-tp-2/step12/UDPServer.java. Output:
+
+2026.11.18 17:23:48 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\step12\UDPServer.java. Using fallback presentation compiler.
+2026.11.18 17:23:49 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\step12\UDPServer.java. Using fallback presentation compiler.
+2026.11.18 17:23:49 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\step12\UDPServer.java. Using fallback presentation compiler.
+nov. 18, 2026 5:23:49 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 1643
+2026.11.18 17:23:48 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\step12\UDPServer.java. Using fallback presentation compiler.
+2026.11.18 17:23:49 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\step12\UDPServer.java. Using fallback presentation compiler.
+2026.11.18 17:23:49 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\step12\UDPServer.java. Using fallback presentation compiler.
+2026.11.18 17:23:50 WARN  no build target for: C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\step12\UDPServer.java
+2026.11.18 17:23:50 WARN  Running javac-semanticdb failed for file:///C:/Users/salom/Desktop/Univalle/9_semestre/Java%20for%20networks/java-for-networks-tp-2/step12/UDPServer.java. Output:
+
+2026.11.18 17:23:49 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\step12\UDPServer.java. Using fallback presentation compiler.
+2026.11.18 17:23:50 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\step12\UDPServer.java. Using fallback presentation compiler.
+2026.11.18 17:23:50 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\step12\UDPServer.java. Using fallback presentation compiler.
+2026.11.18 17:23:51 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\step12\UDPServer.java. Using fallback presentation compiler.
+2026.11.18 17:23:51 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\step12\UDPServer.java. Using fallback presentation compiler.
+2026.11.18 17:23:51 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\step12\UDPServer.java. Using fallback presentation compiler.
+2026.11.18 17:23:52 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\step12\UDPServer.java. Using fallback presentation compiler.
+2026.11.18 17:23:51 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\step12\UDPServer.java. Using fallback presentation compiler.
+2026.11.18 17:23:52 WARN  no build target for: C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\step12\UDPServer.java
+2026.11.18 17:23:52 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\step12\UDPServer.java. Using fallback presentation compiler.
+2026.11.18 17:23:52 WARN  Running javac-semanticdb failed for file:///C:/Users/salom/Desktop/Univalle/9_semestre/Java%20for%20networks/java-for-networks-tp-2/step12/UDPServer.java. Output:
+
+2026.11.18 17:23:53 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\step12\UDPServer.java. Using fallback presentation compiler.
+2026.11.18 17:23:56 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\step12\UDPServer.java. Using fallback presentation compiler.
+2026.11.18 17:24:06 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\step12\UDPClient.java. Using fallback presentation compiler.
+2026.11.18 17:24:06 WARN  no build target for: C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\step12\UDPClient.java
+2026.11.18 17:24:07 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\step12\UDPClient.java. Using fallback presentation compiler.
+2026.11.18 17:24:08 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\step12\UDPClient.java. Using fallback presentation compiler.
+2026.11.18 17:24:08 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\step12\UDPClient.java. Using fallback presentation compiler.
+2026.11.18 17:24:08 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\step12\UDPClient.java. Using fallback presentation compiler.
+2026.11.18 17:24:08 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\step12\UDPClient.java. Using fallback presentation compiler.
+2026.11.18 17:24:08 WARN  Running javac-semanticdb failed for file:///C:/Users/salom/Desktop/Univalle/9_semestre/Java%20for%20networks/java-for-networks-tp-2/step12/UDPClient.java. Output:
+
+2026.11.18 17:24:08 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\step12\UDPClient.java. Using fallback presentation compiler.
+2026.11.18 17:24:09 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\step12\UDPClient.java. Using fallback presentation compiler.
+2026.11.18 17:24:09 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\step12\UDPClient.java. Using fallback presentation compiler.
+2026.11.18 17:24:09 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\step12\UDPClient.java. Using fallback presentation compiler.
+2026.11.18 17:24:09 WARN  no build target for: C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\step12\UDPClient.java
+2026.11.18 17:24:10 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\step12\UDPClient.java. Using fallback presentation compiler.
+2026.11.18 17:24:11 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\step12\UDPClient.java. Using fallback presentation compiler.
+2026.11.18 17:24:11 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\step12\UDPClient.java. Using fallback presentation compiler.
+2026.11.18 17:24:16 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\step12\UDPClient.java. Using fallback presentation compiler.
+2026.11.18 17:24:17 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\step12\UDPClient.java. Using fallback presentation compiler.
+2026.11.18 17:24:17 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\step12\UDPClient.java. Using fallback presentation compiler.
+2026.11.18 17:24:24 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\section1\UDPServer.java. Using fallback presentation compiler.
+2026.11.18 17:24:24 WARN  no build target for: C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\section1\UDPServer.java
+2026.11.18 17:24:24 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\section1\UDPServer.java. Using fallback presentation compiler.
+2026.11.18 17:24:26 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\section1\UDPServer.java. Using fallback presentation compiler.
+2026.11.18 17:24:27 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\section1\UDPServer.java. Using fallback presentation compiler.
+2026.11.18 17:24:27 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\section1\UDPServer.java. Using fallback presentation compiler.
+2026.11.18 17:24:27 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\section1\UDPServer.java. Using fallback presentation compiler.
