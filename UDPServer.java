@@ -7,34 +7,38 @@ import java.nio.charset.StandardCharsets;
 public class UDPServer {
 
     public static final int DEFAULT_PORT = 8080;
-    public static final int MAX_SIZE = 1024; // max accepted message size in bytes
+    public static final int DEFAULT_BUFFER_SIZE = 1024; // max accepted message size in bytes
 
     private final int port;
+    private final int bufferSize;
     private boolean running = false;
 
-    /** Constructor with an explicit listening port. */
-    public UDPServer(int port) {
+    /** Constructor with an explicit port and receive buffer size. */
+    public UDPServer(int port, int bufferSize) {
         this.port = port;
+        this.bufferSize = bufferSize;
     }
 
-    /** Default constructor: listens on DEFAULT_PORT. */
+    /** Constructor with an explicit port and the default buffer size. */
+    public UDPServer(int port) {
+        this(port, DEFAULT_BUFFER_SIZE);
+    }
+
+    /** Default constructor: default port and default buffer size. */
     public UDPServer() {
-        this(DEFAULT_PORT);
+        this(DEFAULT_PORT, DEFAULT_BUFFER_SIZE);
     }
 
     /** Starts the server: receives datagrams forever and prints them. */
     public void launch() throws SocketException {
-        // try-with-resources closes the socket if an exception ends the loop
         try (DatagramSocket socket = new DatagramSocket(port)) {
             running = true;
             System.out.println("Started: " + this);
 
-            byte[] buffer = new byte[MAX_SIZE];
+            byte[] buffer = new byte[bufferSize];
 
             while (true) {
-                // Create the packet inside the loop (or reset its length):
-                // after a receive(), getLength() shrinks to the size of the
-                // last datagram, which would truncate the next ones.
+                // New packet each time, so its length is reset to the full buffer
                 DatagramPacket packet = new DatagramPacket(buffer, buffer.length);
 
                 try {
@@ -44,10 +48,14 @@ public class UDPServer {
                     continue;
                 }
 
-                // Only decode the bytes actually received
-                String msg = new String(packet.getData(), 0, packet.getLength(), StandardCharsets.UTF_8);
+                // Only decode the bytes actually received (at most bufferSize)
+                String msg = new String(packet.getData(), 0, packet.getLength(),
+                                        StandardCharsets.UTF_8);
 
-                System.out.println(packet.getAddress().getHostAddress() + ":" + packet.getPort() + " > " + msg);
+                // The byte count makes the truncation visible in Step 5
+                System.out.println(packet.getAddress().getHostAddress() + ":"
+                                   + packet.getPort() + " (" + packet.getLength()
+                                   + " bytes) > " + msg);
             }
         } finally {
             running = false;
@@ -56,21 +64,30 @@ public class UDPServer {
 
     @Override
     public String toString() {
-        return "UDPServer[port=" + port + ", running=" + running + "]";
+        return "UDPServer[port=" + port + ", bufferSize=" + bufferSize
+               + ", running=" + running + "]";
     }
 
+    /** Usage: java UDPServer [port] [bufferSize] */
     public static void main(String[] args) {
         UDPServer server;
-        if (args.length >= 1) {
-            server = new UDPServer(Integer.parseInt(args[0]));
-        } else {
-            server = new UDPServer();
+        try {
+            if (args.length >= 2) {
+                server = new UDPServer(Integer.parseInt(args[0]), Integer.parseInt(args[1]));
+            } else if (args.length == 1) {
+                server = new UDPServer(Integer.parseInt(args[0]));
+            } else {
+                server = new UDPServer();
+            }
+        } catch (NumberFormatException e) {
+            System.err.println("Usage: java UDPServer [port] [bufferSize]");
+            return;
         }
 
         try {
             server.launch();
         } catch (SocketException e) {
-            // e.g. port already in use, or port < 1024 without root rights
+            // e.g. port already in use
             System.err.println("Cannot open socket on port: " + e.getMessage());
         }
     }
