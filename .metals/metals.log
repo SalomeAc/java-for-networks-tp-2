@@ -1822,3 +1822,113 @@ ADVERTENCIA: Unmatched cancel notification for request id 1643
 2026.11.18 17:24:27 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\section1\UDPServer.java. Using fallback presentation compiler.
 2026.11.18 17:24:27 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\section1\UDPServer.java. Using fallback presentation compiler.
 2026.11.18 17:24:27 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\section1\UDPServer.java. Using fallback presentation compiler.
+2026.11.18 17:31:49 INFO  Shutting down server
+2026.11.18 17:31:49 INFO  Memory monitor stopped
+2026.11.18 17:31:49 INFO  shutting down Metals
+2026.11.18 17:31:49 INFO  Exiting server
+2026.11.19 22:54:00 INFO  Started: Metals version 1.6.9 in folders 'C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2' for client Visual Studio Code 1.147.0.
+2026.11.19 22:54:00 INFO  Memory monitor started
+2026.11.19 22:54:04 WARN  Using H2 2.5.250 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.11.19 22:54:05 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\section1\UDPServer.java. Using fallback presentation compiler.
+2026.11.19 22:54:06 WARN  no build tool detected in workspace 'C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2026.11.19 22:54:06 WARN  Build server is not auto-connectable.
+2026.11.19 22:54:06 WARN  no build target for: C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\section1\UDPServer.java
+2026.11.19 22:54:06 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\section1\UDPServer.java. Using fallback presentation compiler.
+2026.11.19 22:54:09 WARN  Running javac-semanticdb failed for file:///C:/Users/salom/Desktop/Univalle/9_semestre/Java%20for%20networks/java-for-networks-tp-2/section1/UDPServer.java. Output:
+
+2026.11.19 22:54:09 INFO  time: code lens generation in 3.36s
+2026.11.19 22:57:52 WARN  no build target for: C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\step13\CountingServer.java
+2026.11.19 22:57:52 WARN  Running javac-semanticdb failed for file:///C:/Users/salom/Desktop/Univalle/9_semestre/Java%20for%20networks/java-for-networks-tp-2/step13/CountingServer.java. Output:
+
+2026.11.19 22:57:52 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\step13\CountingServer.java. Using fallback presentation compiler.
+2026.11.19 22:57:54 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\step13\CountingServer.java. Using fallback presentation compiler.
+2026.11.19 22:57:54 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\step13\CountingServer.java. Using fallback presentation compiler.
+2026.11.19 22:57:54 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\step13\CountingServer.java. Using fallback presentation compiler.
+2026.11.19 22:57:54 WARN  no build target for: C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\step13\CountingServer.java
+2026.11.19 22:57:54 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\step13\CountingServer.java. Using fallback presentation compiler.
+2026.11.19 22:57:54 WARN  Running javac-semanticdb failed for file:///C:/Users/salom/Desktop/Univalle/9_semestre/Java%20for%20networks/java-for-networks-tp-2/step13/CountingServer.java. Output:
+
+2026.11.19 22:57:56 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\step13\CountingServer.java. Using fallback presentation compiler.
+2026.11.19 22:57:56 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\step13\CountingServer.java. Using fallback presentation compiler.
+2026.11.19 22:57:56 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\step13\CountingServer.java. Using fallback presentation compiler.
+2026.11.19 22:57:56 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\step13\CountingServer.java. Using fallback presentation compiler.
+2026.11.19 22:57:56 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\step13\CountingServer.java. Using fallback presentation compiler.
+nov. 19, 2026 10:57:57 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 20
+2026.11.19 22:57:57 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\step13\CountingServer.java. Using fallback presentation compiler.
+2026.11.19 22:57:57 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\step13\CountingServer.java. Using fallback presentation compiler.
+2026.11.19 22:57:57 WARN  no build target for: C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\step13\CountingServer.java
+2026.11.19 22:57:57 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\step13\CountingServer.java. Using fallback presentation compiler.
+2026.11.19 22:57:57 WARN  Running javac-semanticdb failed for file:///C:/Users/salom/Desktop/Univalle/9_semestre/Java%20for%20networks/java-for-networks-tp-2/step13/CountingServer.java. Output:
+
+2026.11.19 22:57:58 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\step13\CountingServer.java. Using fallback presentation compiler.
+2026.11.19 22:57:58 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\step13\CountingServer.java. Using fallback presentation compiler.
+2026.11.19 22:58:00 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\step13\CountingServer.java. Using fallback presentation compiler.
+2026.11.19 22:58:09 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\step13\CountingServer.java. Using fallback presentation compiler.
+2026.11.19 22:58:12 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\step13\CountingServer.java. Using fallback presentation compiler.
+2026.11.19 22:58:12 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\step13\CountingServer.java. Using fallback presentation compiler.
+2026.11.19 22:59:03 WARN  no build target for: C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\step13\BurstClient.java
+2026.11.19 22:59:03 WARN  Running javac-semanticdb failed for file:///C:/Users/salom/Desktop/Univalle/9_semestre/Java%20for%20networks/java-for-networks-tp-2/step13/BurstClient.java. Output:
+
+2026.11.19 22:59:03 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\step13\BurstClient.java. Using fallback presentation compiler.
+2026.11.19 22:59:03 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\step13\BurstClient.java. Using fallback presentation compiler.
+2026.11.19 22:59:03 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\step13\BurstClient.java. Using fallback presentation compiler.
+2026.11.19 22:59:03 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\step13\BurstClient.java. Using fallback presentation compiler.
+2026.11.19 22:59:03 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\step13\BurstClient.java. Using fallback presentation compiler.
+2026.11.19 22:59:03 WARN  no build target for: C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\step13\BurstClient.java
+2026.11.19 22:59:04 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\step13\BurstClient.java. Using fallback presentation compiler.
+2026.11.19 22:59:04 WARN  Running javac-semanticdb failed for file:///C:/Users/salom/Desktop/Univalle/9_semestre/Java%20for%20networks/java-for-networks-tp-2/step13/BurstClient.java. Output:
+
+2026.11.19 22:59:08 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\step13\BurstClient.java. Using fallback presentation compiler.
+2026.11.19 22:59:08 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\step13\BurstClient.java. Using fallback presentation compiler.
+2026.11.19 22:59:08 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\step13\BurstClient.java. Using fallback presentation compiler.
+2026.11.19 22:59:08 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\step13\BurstClient.java. Using fallback presentation compiler.
+2026.11.19 22:59:08 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\step13\BurstClient.java. Using fallback presentation compiler.
+2026.11.19 22:59:09 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\step13\BurstClient.java. Using fallback presentation compiler.
+2026.11.19 22:59:10 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\step13\BurstClient.java. Using fallback presentation compiler.
+2026.11.19 22:59:10 WARN  no build target for: C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\step13\BurstClient.java
+2026.11.19 22:59:10 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\step13\BurstClient.java. Using fallback presentation compiler.
+2026.11.19 22:59:10 WARN  Running javac-semanticdb failed for file:///C:/Users/salom/Desktop/Univalle/9_semestre/Java%20for%20networks/java-for-networks-tp-2/step13/BurstClient.java. Output:
+
+2026.11.19 22:59:10 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\step13\BurstClient.java. Using fallback presentation compiler.
+2026.11.19 22:59:11 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\step13\BurstClient.java. Using fallback presentation compiler.
+2026.11.19 22:59:37 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\step13\BurstClient.java. Using fallback presentation compiler.
+2026.11.19 23:05:42 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\step13\BurstClient.java. Using fallback presentation compiler.
+2026.11.19 23:05:45 WARN  no build target for: C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\step13\BurstClient.java
+2026.11.19 23:05:45 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\step13\BurstClient.java. Using fallback presentation compiler.
+2026.11.19 23:05:45 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\step13\BurstClient.java. Using fallback presentation compiler.
+2026.11.19 23:05:45 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\step13\CountingServer.java. Using fallback presentation compiler.
+2026.11.19 23:05:45 WARN  no build target for: C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\step13\CountingServer.java
+nov. 19, 2026 11:05:45 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 109
+2026.11.19 23:05:45 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\step13\CountingServer.java. Using fallback presentation compiler.
+nov. 19, 2026 11:05:46 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 111
+2026.11.19 23:05:45 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\step13\CountingServer.java. Using fallback presentation compiler.
+2026.11.19 23:05:45 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\step13\CountingServer.java. Using fallback presentation compiler.
+2026.11.19 23:05:46 WARN  no build target for: C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\step13\CountingServer.java
+2026.11.19 23:05:46 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\step13\CountingServer.java. Using fallback presentation compiler.
+2026.11.19 23:05:45 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\step13\CountingServer.java. Using fallback presentation compiler.
+2026.11.19 23:05:47 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\step13\BurstClient.java. Using fallback presentation compiler.
+2026.11.19 23:05:47 WARN  no build target for: C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\step13\BurstClient.java
+2026.11.19 23:05:47 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\step13\BurstClient.java. Using fallback presentation compiler.
+2026.11.19 23:05:47 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\step13\BurstClient.java. Using fallback presentation compiler.
+2026.11.19 23:05:47 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\step13\BurstClient.java. Using fallback presentation compiler.
+2026.11.19 23:07:34 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\step13\BurstClient.java. Using fallback presentation compiler.
+2026.11.19 23:07:34 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\step13\BurstClient.java. Using fallback presentation compiler.
+2026.11.19 23:07:34 WARN  Running javac-semanticdb failed for file:///C:/Users/salom/Desktop/Univalle/9_semestre/Java%20for%20networks/java-for-networks-tp-2/step13/BurstClient.java. Output:
+
+2026.11.19 23:07:34 WARN  no build target for: C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\step13\BurstClient.java
+2026.11.19 23:07:35 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\step13\BurstClient.java. Using fallback presentation compiler.
+2026.11.19 23:35:25 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\step13\BurstClient.java. Using fallback presentation compiler.
+2026.11.19 23:35:25 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\step13\BurstClient.java. Using fallback presentation compiler.
+2026.11.19 23:35:25 WARN  Running javac-semanticdb failed for file:///C:/Users/salom/Desktop/Univalle/9_semestre/Java%20for%20networks/java-for-networks-tp-2/step13/BurstClient.java. Output:
+
+2026.11.19 23:35:25 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\step13\BurstClient.java. Using fallback presentation compiler.
+2026.11.19 23:35:25 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\step13\BurstClient.java. Using fallback presentation compiler.
+2026.11.19 23:35:26 WARN  no build target for: C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\step13\BurstClient.java
+2026.11.19 23:35:26 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\step13\BurstClient.java. Using fallback presentation compiler.
+2026.11.19 23:35:27 WARN  no build target for: C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\step13\BurstClient.java
+2026.11.19 23:35:27 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\step13\BurstClient.java. Using fallback presentation compiler.
+2026.11.19 23:35:27 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\step13\BurstClient.java. Using fallback presentation compiler.
+2026.11.19 23:35:28 INFO  no build target found for C:\Users\salom\Desktop\Univalle\9_semestre\Java for networks\java-for-networks-tp-2\step13\BurstClient.java. Using fallback presentation compiler.
