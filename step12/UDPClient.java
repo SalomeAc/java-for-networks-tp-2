@@ -8,8 +8,6 @@ import java.net.SocketTimeoutException;
 import java.net.UnknownHostException;
 import java.nio.charset.StandardCharsets;
 
-import step3.UDPClient;
-
 public class UDPClient {
 
     public static final int TIMEOUT_MS = 1000;   // time to wait for an ACK (Step 12)

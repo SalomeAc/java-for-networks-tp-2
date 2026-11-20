@@ -1,14 +1,3 @@
-error id: file:///C:/Users/salom/Desktop/Univalle/9_semestre/Java%20for%20networks/java-for-networks-tp-2/section4/UDPClient.java:java/lang/System#
-file:///C:/Users/salom/Desktop/Univalle/9_semestre/Java%20for%20networks/java-for-networks-tp-2/section4/UDPClient.java
-empty definition using pc, found symbol in pc: java/lang/System#
-empty definition using semanticdb
-empty definition using fallback
-non-local guesses:
-
-offset: 1672
-uri: file:///C:/Users/salom/Desktop/Univalle/9_semestre/Java%20for%20networks/java-for-networks-tp-2/section4/UDPClient.java
-text:
-```scala
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -18,21 +7,21 @@ import java.net.InetAddress;
 import java.net.UnknownHostException;
 import java.nio.charset.StandardCharsets;
 
-// Step 11
-
 public class UDPClient {
 
     private final InetAddress serverAddress;
     private final int serverPort;
-    private int nextSeq = 0; // sequence number of the next message (Step 11)
 
     public UDPClient(String host, int port) throws UnknownHostException {
+        
         this.serverAddress = InetAddress.getByName(host);
         this.serverPort = port;
     }
 
-    /** Reads lines from standard input and sends each one, numbered, in a datagram. */
+    /** Reads lines from standard input and sends each one in a datagram. */
     public void launch() throws IOException {
+        // No port given: the OS picks a free local port for the client.
+        // One socket for the whole session, so the source port stays the same.
         try (DatagramSocket socket = new DatagramSocket();
              BufferedReader in = new BufferedReader(
                      new InputStreamReader(System.in, StandardCharsets.UTF_8))) {
@@ -41,16 +30,12 @@ public class UDPClient {
                                + " (Ctrl+D on Linux/macOS, Ctrl+Z then Enter on Windows to quit)");
 
             String line;
+            // readLine() returns null when standard input is closed
             while ((line = in.readLine()) != null) {
-                // Prefix the message with its sequence number, e.g. "12:hello"
-                String numbered = nextSeq + ":" + line;
-                byte[] data = numbered.getBytes(StandardCharsets.UTF_8);
-
+                byte[] data = line.getBytes(StandardCharsets.UTF_8);
                 DatagramPacket packet =
                         new DatagramPacket(data, data.length, serverAddress, serverPort);
                 socket.send(packet);
-                @@System.out.println("sent #" + nextSeq);
-                nextSeq++;
             }
         }
         System.out.println("Client stopped.");
@@ -74,9 +59,3 @@ public class UDPClient {
         }
     }
 }
-```
-
-
-#### Short summary: 
-
-empty definition using pc, found symbol in pc: java/lang/System#
