@@ -9,7 +9,7 @@ import java.util.Map;
 import java.util.Set;
 
 /**
- * UDP server with acknowledgments and simulated losses (TP 2, Step 14).
+ * UDP server with acknowledgments and simulated losses (Step 14).
  * <p>
  * Receives messages of the form {@code "n:text"}, displays the sequence number
  * and the text, and reports, for each client, the messages that are missing,

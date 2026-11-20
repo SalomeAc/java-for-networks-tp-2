@@ -5,7 +5,7 @@ import java.nio.charset.StandardCharsets;
 
 /**
  * Server that counts the datagrams of a burst to measure packet loss
- * (TP 2, Step 13).
+ * (Step 13).
  * <p>
  * Receives the datagrams sent by {@code BurstClient}, of the form
  * {@code "seq/N"}, and counts them. A burst is considered finished after
