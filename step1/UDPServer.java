@@ -4,7 +4,7 @@ import java.net.DatagramSocket;
 import java.net.SocketException;
 import java.nio.charset.StandardCharsets;
 
-// Before modifications of step 5, the server printed the raw bytes of each datagram.
+// Before modifications of step 5
 
 public class UDPServer {
 
@@ -72,7 +72,7 @@ public class UDPServer {
         try {
             server.launch();
         } catch (SocketException e) {
-            // e.g. port already in use, or port < 1024 without root rights
+            // port already in use, or port < 1024 without root rights
             System.err.println("Cannot open socket on port: " + e.getMessage());
         }
     }

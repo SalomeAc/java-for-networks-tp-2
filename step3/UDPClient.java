@@ -13,7 +13,7 @@ public class UDPClient {
     private final int serverPort;
 
     public UDPClient(String host, int port) throws UnknownHostException {
-        // Resolve the host name once (e.g. "localhost" -> 127.0.0.1)
+        
         this.serverAddress = InetAddress.getByName(host);
         this.serverPort = port;
     }
