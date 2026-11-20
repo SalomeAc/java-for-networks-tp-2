@@ -4,29 +4,50 @@ import java.net.DatagramSocket;
 import java.net.SocketException;
 import java.nio.charset.StandardCharsets;
 
-// Before modifications of step 5
-
+/**
+ * UDP server (This is the same one as in Step 1).
+ * <p>
+ * Receives datagrams containing UTF-8 strings and prints each one on the
+ * standard output, prefixed with the address and port of the sender.
+ * Messages longer than {@link #MAX_SIZE} bytes are truncated.
+ * <p>
+ * Usage: {@code java UDPServer [port]}
+ */
 public class UDPServer {
 
+    /** Port used when none is given. */
     public static final int DEFAULT_PORT = 8080;
-    public static final int MAX_SIZE = 1024; // max accepted message size in bytes
 
+    /** Maximum size of a received message, in bytes. */
+    public static final int MAX_SIZE = 1024;
+
+    /** UDP port the server listens on. */
     private final int port;
+
+    /** True while the server is receiving datagrams. */
     private boolean running = false;
 
-    /** Constructor with an explicit listening port. */
+    /**
+     * Creates a server listening on the given port.
+     *
+     * @param port the UDP port to listen on
+     */
     public UDPServer(int port) {
         this.port = port;
     }
 
-    /** Default constructor: listens on DEFAULT_PORT. */
+    /** Creates a server listening on {@link #DEFAULT_PORT}. */
     public UDPServer() {
         this(DEFAULT_PORT);
     }
 
-    /** Starts the server: receives datagrams forever and prints them. */
+    /**
+     * Starts the server: receives datagrams in an infinite loop and prints them.
+     * This method never returns normally.
+     *
+     * @throws SocketException if the socket cannot be opened (e.g. port already in use)
+     */
     public void launch() throws SocketException {
-        // try-with-resources closes the socket if an exception ends the loop
         try (DatagramSocket socket = new DatagramSocket(port)) {
             running = true;
             System.out.println("Started: " + this);
@@ -34,45 +55,51 @@ public class UDPServer {
             byte[] buffer = new byte[MAX_SIZE];
 
             while (true) {
-                // Create the packet inside the loop (or reset its length):
-                // after a receive(), getLength() shrinks to the size of the
-                // last datagram, which would truncate the next ones.
+                // New packet each time: receive() shrinks the packet's length
                 DatagramPacket packet = new DatagramPacket(buffer, buffer.length);
 
                 try {
-                    socket.receive(packet); // blocks until a datagram arrives
+                    socket.receive(packet);
                 } catch (IOException e) {
                     System.err.println("Receive error: " + e.getMessage());
                     continue;
                 }
 
-                // Only decode the bytes actually received
-                String msg = new String(packet.getData(), 0, packet.getLength(), StandardCharsets.UTF_8);
+                // Decode only the bytes actually received
+                String msg = new String(packet.getData(), 0, packet.getLength(),
+                                        StandardCharsets.UTF_8);
 
-                System.out.println(packet.getAddress().getHostAddress() + ":" + packet.getPort() + " > " + msg);
+                System.out.println(packet.getAddress().getHostAddress() + ":"
+                                   + packet.getPort() + " > " + msg);
             }
         } finally {
             running = false;
         }
     }
 
+    /**
+     * Describes the state of the server.
+     *
+     * @return the port and whether the server is running
+     */
     @Override
     public String toString() {
         return "UDPServer[port=" + port + ", running=" + running + "]";
     }
 
+    /**
+     * Starts a server on the port given as first argument, or on the default port.
+     *
+     * @param args optional port number
+     */
     public static void main(String[] args) {
-        UDPServer server;
-        if (args.length >= 1) {
-            server = new UDPServer(Integer.parseInt(args[0]));
-        } else {
-            server = new UDPServer();
-        }
+        UDPServer server = (args.length >= 1)
+                ? new UDPServer(Integer.parseInt(args[0]))
+                : new UDPServer();
 
         try {
             server.launch();
         } catch (SocketException e) {
-            // port already in use, or port < 1024 without root rights
             System.err.println("Cannot open socket on port: " + e.getMessage());
         }
     }

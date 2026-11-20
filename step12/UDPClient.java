@@ -8,21 +8,52 @@ import java.net.SocketTimeoutException;
 import java.net.UnknownHostException;
 import java.nio.charset.StandardCharsets;
 
+/**
+ * UDP client with acknowledgments and retransmission (Steps 12 and 14).
+ * <p>
+ * Reads lines of text from the standard input and sends each one, numbered
+ * (e.g. {@code "12:hello"}), to the server. After each send, it waits for the
+ * acknowledgment {@code "ACK:12"}; if none arrives within {@link #TIMEOUT_MS},
+ * it sends the message again, up to {@link #MAX_ATTEMPTS} times, then reports
+ * an error. The client stops when the standard input is closed.
+ * <p>
+ * Usage: {@code java UDPClient <host> <port>}
+ */
 public class UDPClient {
 
-    public static final int TIMEOUT_MS = 1000;   // time to wait for an ACK (Step 12)
-    public static final int MAX_ATTEMPTS = 5;    // 1 send + up to 4 retransmissions
+    /** Time to wait for an acknowledgment before retransmitting, in milliseconds. */
+    public static final int TIMEOUT_MS = 1000;
 
+    /** Maximum number of sends of one message (1 send + up to 4 retransmissions). */
+    public static final int MAX_ATTEMPTS = 5;
+
+    /** Address of the server the datagrams are sent to. */
     private final InetAddress serverAddress;
-    private final int serverPort;
-    private int nextSeq = 0; // sequence number of the next message (Step 11)
 
+    /** Port of the server the datagrams are sent to. */
+    private final int serverPort;
+
+    /** Sequence number of the next message to send. */
+    private int nextSeq = 0;
+
+    /**
+     * Creates a client that sends to the given server.
+     *
+     * @param host name or IP address of the server (e.g. "localhost")
+     * @param port UDP port of the server
+     * @throws UnknownHostException if the host name cannot be resolved
+     */
     public UDPClient(String host, int port) throws UnknownHostException {
         this.serverAddress = InetAddress.getByName(host);
         this.serverPort = port;
     }
 
-    /** Reads lines from standard input and sends each one reliably. */
+    /**
+     * Reads lines from the standard input and sends each one reliably,
+     * until the standard input is closed.
+     *
+     * @throws IOException if the socket cannot be created or a datagram cannot be sent
+     */
     public void launch() throws IOException {
         try (DatagramSocket socket = new DatagramSocket();
              BufferedReader in = new BufferedReader(
@@ -41,9 +72,14 @@ public class UDPClient {
     }
 
     /**
-     * Sends "seq:text" and waits for "ACK:seq".
-     * Retransmits after each timeout, up to MAX_ATTEMPTS attempts.
-     * Returns true if the message was acknowledged.
+     * Sends {@code "seq:text"} and waits for {@code "ACK:seq"}, retransmitting
+     * after each timeout, up to {@link #MAX_ATTEMPTS} attempts.
+     *
+     * @param socket the socket used to send the message and receive the ACK
+     * @param seq    the sequence number of the message
+     * @param text   the text of the message
+     * @return true if the message was acknowledged, false after too many attempts
+     * @throws IOException if a datagram cannot be sent or received
      */
     private boolean sendReliably(DatagramSocket socket, int seq, String text) throws IOException {
         byte[] data = (seq + ":" + text).getBytes(StandardCharsets.UTF_8);
@@ -59,7 +95,7 @@ public class UDPClient {
             long deadline = System.currentTimeMillis() + TIMEOUT_MS;
             while (true) {
                 long remaining = deadline - System.currentTimeMillis();
-                if (remaining <= 0) break;            // this attempt has timed out
+                if (remaining <= 0) break; // this attempt has timed out
                 socket.setSoTimeout((int) remaining);
 
                 DatagramPacket ack = new DatagramPacket(ackBuffer, ackBuffer.length);
@@ -87,6 +123,11 @@ public class UDPClient {
         return false;
     }
 
+    /**
+     * Starts a client towards the server given on the command line.
+     *
+     * @param args the host and the port of the server
+     */
     public static void main(String[] args) {
         if (args.length < 2) {
             System.err.println("Usage: java UDPClient <host> <port>");

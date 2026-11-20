@@ -8,40 +8,76 @@ import java.util.HashSet;
 import java.util.Map;
 import java.util.Set;
 
-// Step 11: the server now tracks the sequence numbers of messages from each client, and reports missing or out-of-order messages.
-
+/**
+ * UDP server that checks sequence numbers (Step 11).
+ * <p>
+ * Receives messages of the form {@code "n:text"}, displays the sequence number
+ * and the text, and reports, for each client, the messages that are missing,
+ * that arrive out of order, or that are received twice.
+ * <p>
+ * Usage: {@code java UDPServer [port] [bufferSize]}
+ */
 public class UDPServer {
 
+    /** Port used when none is given. */
     public static final int DEFAULT_PORT = 8080;
-    public static final int DEFAULT_BUFFER_SIZE = 1024; // max accepted message size in bytes
 
+    /** Receive buffer size used when none is given, in bytes. */
+    public static final int DEFAULT_BUFFER_SIZE = 1024;
+
+    /** UDP port the server listens on. */
     private final int port;
+
+    /** Size of the receive buffer; longer messages are truncated. */
     private final int bufferSize;
+
+    /** True while the server is receiving datagrams. */
     private boolean running = false;
 
-    /** What the server remembers about one client (Step 11). */
+    /** What the server remembers about one client. */
     private static class ClientState {
-        int expected = 0;                          // next sequence number expected
-        Set<Integer> missing = new HashSet<>();    // numbers skipped, not received yet
+
+        /** Next sequence number expected from this client. */
+        private int expected = 0;
+
+        /** Sequence numbers that were skipped and have not arrived yet. */
+        private final Set<Integer> missing = new HashSet<>();
     }
 
-    // One state per client, identified by "address:port"
+    /** State of each client, identified by "address:port". */
     private final Map<String, ClientState> clients = new HashMap<>();
 
+    /**
+     * Creates a server with the given port and receive buffer size.
+     *
+     * @param port       the UDP port to listen on
+     * @param bufferSize the size of the receive buffer, in bytes
+     */
     public UDPServer(int port, int bufferSize) {
         this.port = port;
         this.bufferSize = bufferSize;
     }
 
+    /**
+     * Creates a server with the given port and {@link #DEFAULT_BUFFER_SIZE}.
+     *
+     * @param port the UDP port to listen on
+     */
     public UDPServer(int port) {
         this(port, DEFAULT_BUFFER_SIZE);
     }
 
+    /** Creates a server with {@link #DEFAULT_PORT} and {@link #DEFAULT_BUFFER_SIZE}. */
     public UDPServer() {
         this(DEFAULT_PORT, DEFAULT_BUFFER_SIZE);
     }
 
-    /** Starts the server: receives datagrams forever and prints them. */
+    /**
+     * Starts the server: receives datagrams in an infinite loop and checks
+     * their sequence numbers. This method never returns normally.
+     *
+     * @throws SocketException if the socket cannot be opened (e.g. port already in use)
+     */
     public void launch() throws SocketException {
         try (DatagramSocket socket = new DatagramSocket(port)) {
             running = true;
@@ -61,7 +97,7 @@ public class UDPServer {
 
                 String msg = new String(packet.getData(), 0, packet.getLength(),
                                         StandardCharsets.UTF_8);
-                msg = msg.stripTrailing(); // netcat adds a newline at the end
+                msg = msg.stripTrailing(); 
 
                 String sender = packet.getAddress().getHostAddress() + ":" + packet.getPort();
                 String prefix = sender + " (" + packet.getLength() + " bytes) ";
@@ -73,7 +109,14 @@ public class UDPServer {
         }
     }
 
-    /** Extracts the sequence number and reports missing or out-of-order messages. */
+    /**
+     * Extracts the sequence number of a message, displays it, and reports
+     * missing, out-of-order or duplicate messages.
+     *
+     * @param sender "address:port" of the client, used to find its state
+     * @param prefix text displayed before the message (sender and size)
+     * @param msg    the received message, of the form "n:text"
+     */
     private void handleMessage(String sender, String prefix, String msg) {
         int sep = msg.indexOf(':');
         int seq;
@@ -89,7 +132,7 @@ public class UDPServer {
         ClientState state = clients.computeIfAbsent(sender, k -> new ClientState());
 
         if (seq == state.expected) {
-            // Normal case: the message we were waiting for
+            // Normal case: the message
             System.out.println(prefix + "#" + seq + " > " + text);
             state.expected++;
 
@@ -118,13 +161,23 @@ public class UDPServer {
         }
     }
 
+    /**
+     * Describes the state of the server.
+     *
+     * @return the port, the buffer size and whether the server is running
+     */
     @Override
     public String toString() {
         return "UDPServer[port=" + port + ", bufferSize=" + bufferSize
                + ", running=" + running + "]";
     }
 
-    /** Usage: java UDPServer [port] [bufferSize] */
+    /**
+     * Starts a server with the port and buffer size given on the command line,
+     * or with the default values.
+     *
+     * @param args optional port, then optional buffer size
+     */
     public static void main(String[] args) {
         UDPServer server;
         try {

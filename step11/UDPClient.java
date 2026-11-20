@@ -7,20 +7,45 @@ import java.net.InetAddress;
 import java.net.UnknownHostException;
 import java.nio.charset.StandardCharsets;
 
-// Step 11
-
+/**
+ * UDP client with sequence numbers (Step 11).
+ * <p>
+ * Reads lines of text from the standard input and sends each one in a
+ * datagram, prefixed with a sequence number starting at 0
+ * (e.g. {@code "12:hello"}), so that the server can detect missing
+ * or out-of-order messages. The client stops when the standard input is closed.
+ * <p>
+ * Usage: {@code java UDPClient <host> <port>}
+ */
 public class UDPClient {
 
+    /** Address of the server the datagrams are sent to. */
     private final InetAddress serverAddress;
-    private final int serverPort;
-    private int nextSeq = 0; // sequence number of the next message (Step 11)
 
+    /** Port of the server the datagrams are sent to. */
+    private final int serverPort;
+
+    /** Sequence number of the next message to send. */
+    private int nextSeq = 0;
+
+    /**
+     * Creates a client that sends to the given server.
+     *
+     * @param host name or IP address of the server (e.g. "localhost")
+     * @param port UDP port of the server
+     * @throws UnknownHostException if the host name cannot be resolved
+     */
     public UDPClient(String host, int port) throws UnknownHostException {
         this.serverAddress = InetAddress.getByName(host);
         this.serverPort = port;
     }
 
-    /** Reads lines from standard input and sends each one, numbered, in a datagram. */
+    /**
+     * Reads lines from the standard input and sends each one, numbered,
+     * in a datagram, until the standard input is closed.
+     *
+     * @throws IOException if the socket cannot be created or a datagram cannot be sent
+     */
     public void launch() throws IOException {
         try (DatagramSocket socket = new DatagramSocket();
              BufferedReader in = new BufferedReader(
@@ -31,7 +56,7 @@ public class UDPClient {
 
             String line;
             while ((line = in.readLine()) != null) {
-                // Prefix the message with its sequence number, e.g. "12:hello"
+                // Prefix the message with its sequence number: "12:hello"
                 String numbered = nextSeq + ":" + line;
                 byte[] data = numbered.getBytes(StandardCharsets.UTF_8);
 
@@ -45,6 +70,11 @@ public class UDPClient {
         System.out.println("Client stopped.");
     }
 
+    /**
+     * Starts a client towards the server given on the command line.
+     *
+     * @param args the host and the port of the server
+     */
     public static void main(String[] args) {
         if (args.length < 2) {
             System.err.println("Usage: java UDPClient <host> <port>");
