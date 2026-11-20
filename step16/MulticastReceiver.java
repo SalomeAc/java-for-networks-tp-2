@@ -126,7 +126,7 @@ public class MulticastReceiver {
      */
     private void startCommandThread() {
         Thread thread = new Thread(this::readCommands);
-        thread.setDaemon(true);   // does not keep the program alive on its own
+        thread.setDaemon(true);   
         thread.start();
     }
 

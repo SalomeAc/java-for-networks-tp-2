@@ -6,7 +6,7 @@ Salomé Acosta Montaño, Manuela Carmen Neyla Etah Ebouga
 A UDP client and server written with Java datagram sockets, used to explore
 what distinguishes UDP from TCP: the size limits of datagrams, the absence of
 connections, the lack of reliability (partially fixed with sequence numbers and
-acknowledgments), and one-to-many communication with multicast.
+acknowledgments), and one-to-many communication with multicast and broadcast.
 
 The answers to the questions of the lab, with our observations and screenshots,
 are in [`Answer-for -the-questions.md`](Answer-for%20-the-questions.md).
@@ -30,7 +30,8 @@ The folders are independent: each one is compiled and run on its own.
 | `step12` | 12 | `UDPServer`, `UDPClient` | Acknowledgments, timeout and retransmission |
 | `step13` | 13 | `BurstClient`, `CountingServer` | Measurement of the loss rate with bursts of datagrams |
 | `step14` | 14 | `UDPServer`, `UDPClient` | Simulated losses and detection of duplicates |
-| `step16` | 16–18 | `MulticastReceiver`, `UDPClient` | Multicast group (join, leave) and broadcast |
+| `step16` | 16–17 | `MulticastReceiver`, `UDPClient` | Multicast group: join, leave, several receivers |
+| `step18` | 18 | `BroadcastClient`, `UDPServer` | Broadcast to all the hosts of the local network |
 
 Steps 8, 10, 15 and 19 contain only questions, answered in the answers file.
 
@@ -46,7 +47,7 @@ java UDPServer 8080
 java UDPClient localhost 8080
 ```
 
-The client reads the lines typed on the keyboard and stops when the standard
+The clients read the lines typed on the keyboard and stop when the standard
 input is closed (Ctrl+D on Linux/macOS, Ctrl+Z then Enter on Windows).
 Lines can also be sent from a pipe, e.g. in PowerShell:
 `1..10 | ForEach-Object { "msg$_" } | java UDPClient localhost 8080`
@@ -58,26 +59,32 @@ Arguments in brackets are optional; the default value is used when they are omit
 | Program | Arguments | Default |
 |---|---|---|
 | `UDPServer` (step 1) | `[port]` | 8080 |
-| `UDPServer` (steps 5–12) | `[port] [bufferSize]` | 8080, 1024 bytes |
+| `UDPServer` (steps 5–12, 18) | `[port] [bufferSize]` | 8080, 1024 bytes |
 | `UDPServer` (step 14) | `[port] [bufferSize] [dropRate]` | 8080, 1024, 0 (no loss) |
 | `UDPClient` | `<host> <port>` | required |
 | `UDPSizeTest` | `[host] [port]` | localhost, 8080 |
 | `BurstClient` | `<host> <port> [N]` | N = 10000 |
 | `CountingServer` | `[port] [delayMs]` | 8080, 0 ms |
 | `MulticastReceiver` | `[group] [port] [interface]` | 239.0.0.1, 8888, interface used for the Internet |
+| `BroadcastClient` | `<broadcastAddress> <port>` | required |
 
 Examples:
 
 ```
-java UDPServer 8080 64            # Step 5: 64-byte receive buffer
-java UDPServer 8080 1024 0.2      # Step 14: 20 % of datagrams and ACKs dropped
-java CountingServer 8080 2        # Step 13 c: 2 ms pause after each datagram
+java UDPServer 8080 64                      # Step 5: 64-byte receive buffer
+java UDPServer 8080 1024 0.2                # Step 14: 20 % of datagrams and ACKs dropped
+java CountingServer 8080 2                  # Step 13 c: 2 ms pause after each datagram
 java MulticastReceiver 239.0.0.1 8888 192.168.1.10
-java UDPClient 239.0.0.1 8888     # Step 17: send to the multicast group
+java UDPClient 239.0.0.1 8888               # Step 17: send to the multicast group
+java BroadcastClient 192.168.35.255 8080    # Step 18: broadcast to the local network
 ```
 
 `MulticastReceiver` accepts the commands `leave`, `join` and `quit` while it runs.
 Its interface can be given by name (e.g. `wlan1`) or by one of its IP addresses.
+
+`BroadcastClient` accepts the broadcast address `255.255.255.255` or the
+broadcast address of the local network (the last address of the network, e.g.
+`192.168.35.255` for the network 192.168.32.0 with mask 255.255.252.0).
 
 For more reference, in the report there are screenshots of how we ran every step
 from the terminal.
